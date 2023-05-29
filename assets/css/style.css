@@ -65,7 +65,7 @@ header {
     display: none;
 }
 
-.mobile-menu{
+.mobile-menu {
     display: none;
 }
 
@@ -92,28 +92,28 @@ header {
         cursor: pointer;
         filter: invert(100%);
     }
-    .mobile-menu ul{
+    .mobile-menu ul {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
     }
 
-    .mobile-menu .nav-item{
+    .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
     }
 
-    .mobile-menu .login-button{
+    .mobile-menu .login-button {
         display: block;
         padding: 1rem 2rem;
     }
 
-    .mobile-menu .login-button button{
+    .mobile-menu .login-button button {
         width: 100%;
     }
 
-    .open{
+    .open {
         display: block;
     }
 }
