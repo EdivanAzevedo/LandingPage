@@ -47,16 +47,73 @@ header {
     color: white;
 }
 
-.login-buttom button{
+.login-button button {
     border: none;
     background-color: #0187a7;
     padding: 10px 15px;
     border: 5px;
 }
 
-.login-buttom button a{
+.login-button button a {
     text-decoration: none;
     color: white;
     font-weight: 500;
     font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (730px > width) {
+    .nav-bar {
+        padding: 1.5rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        filter: invert(100%);
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button{
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button{
+        width: 100%;
+    }
+
+    .open{
+        display: block;
+    }
 }
